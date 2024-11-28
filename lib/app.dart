@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:quotes_app/config/routes/app_routes.dart';
 import 'package:quotes_app/config/themes/app_theme.dart';
-import 'package:quotes_app/features/random_qoutes/presentation/pages/quoteScreen.dart';
 
 class QuotesApp extends StatelessWidget {
   const QuotesApp({super.key});
@@ -11,7 +11,7 @@ class QuotesApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: appTheme(),
-      home: const Quotescreen(),
+      routes: routes,
     );
   }
 }

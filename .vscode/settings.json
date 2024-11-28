@@ -1,9 +1,8 @@
-
 {
     "better-comments.tags": [
         {
             "tag": "!",
-            "color": "#FF2D00",
+            "color": "#FF2D00", // الأحمر
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
@@ -12,7 +11,7 @@
         },
         {
             "tag": "?",
-            "color": "#3498DB",
+            "color": "#FFD700", // الأصفر
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
@@ -20,17 +19,17 @@
             "italic": false
         },
         {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
+            "tag": "//T",
+            "color": "#D3D3D3", // الرمادي (أو الأبيض)
+            "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
             "bold": false,
             "italic": false
         },
         {
-            "tag": "todo",
-            "color": "#FF8C00",
+            "tag": "TODO",
+            "color": "#00FF00", // الأخضر
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
@@ -39,7 +38,7 @@
         },
         {
             "tag": "*",
-            "color": "#98C379",
+            "color": "#98C379", // الأخضر (ملاحظات)
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
